@@ -2,7 +2,7 @@ import requests #<---------- PIP IMPORT REQUESTS
 
 Key = "XDXDXDXD" #<-----------IS HERE ONLY YOUR RIOT API
 Server = "euw1" #<--------- CHANGE SERVER
-summonerName = input ("Введите свой никнейм - ")  #<------------ TYPE YOUR NICKNAME
+summonerName = input ("Введите свой никнейм - ")  #<------------ NICKNAME TYPE REQUEST
 
 url = f"https://euw1.api.riotgames.com/lol/summoner/v4/summoners/by-name/{summonerName}" #<---------- CHANHGE URL
 
